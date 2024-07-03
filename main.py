@@ -2,8 +2,8 @@
 import cv2
 
 # Öffne die Kameras
-cap1 = cv2.VideoCapture(1, cv2.CAP_DSHOW)
-cap2 = cv2.VideoCapture(2, cv2.CAP_DSHOW)
+cap1 = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap2 = cv2.VideoCapture(1, cv2.CAP_DSHOW)
 
 # Definiere die Codec und erstelle einen VideoWriter für jede Kamera
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
