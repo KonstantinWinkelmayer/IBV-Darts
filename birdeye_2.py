@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('bild.jpg')
+image = cv2.imread('Bilder/calibration.jpg')
 
 # Define the range for white color in RGB space
 # Adjust the lower and upper bounds if necessary
@@ -48,8 +48,6 @@ while True:
     # Filter by inertia ratio
     params.filterByInertia = True
     params.minInertiaRatio = 0.01
-
-
 
 
 
